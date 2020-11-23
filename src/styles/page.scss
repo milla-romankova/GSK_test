@@ -1,0 +1,22 @@
+.page {
+  background-color: white;
+
+  &__header {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    @media(min-width: 971px) {
+      margin-top: 64px;
+    }
+  }
+
+  &__main {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+
+  &__footer {
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+}
