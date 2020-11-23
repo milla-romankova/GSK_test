@@ -1,6 +1,23 @@
 'use strict';
-/* eslint-disable */
 
+const list = document.querySelector('.questions__list');
+
+list.addEventListener('click', event => {
+  if (event.target.tagName !== 'H3') {
+    return;
+  }
+
+  const hide = event.target.children[0];
+  const show = event.target.children[1];
+  const answer = event.target.nextElementSibling;
+
+  show.hidden = !show.hidden;
+  hide.hidden = !hide.hidden;
+  answer.hidden = !answer.hidden;
+});
+
+/* eslint-disable */
+/*
 $('.question1').click(function() {
   $('.answer1').toggle();
 });
@@ -13,7 +30,7 @@ $('.question3').click(function() {
   $('.answer3').toggle();
 });
 
-const question1 = document.querySelector('.question1');
+/*const question1 = document.querySelector('.question1');
 
 question1.addEventListener('click', function() {
   if (!question1.classList.toString().includes('question-open')) {
@@ -53,4 +70,4 @@ question3.addEventListener('click', function() {
     $('.question3 .hide').hide();
     $('.question3 .show').show();
   }
-});
+});*/
