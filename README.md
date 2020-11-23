@@ -1,6 +1,6 @@
 # GSK_test
 
-[Demo](https://milla-romankova.github.io/GSK_test)
+[Demo](https://milla-romankova.github.io/GSK_test/)
 
 [Figma](https://www.figma.com/file/m9ASkpznyxYM9p0aGoX8F3/GSK_test?node-id=0%3A1)
 
