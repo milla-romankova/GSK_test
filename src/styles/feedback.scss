@@ -31,8 +31,8 @@
     }
 
     @media(max-width: 750px) {
-      grid-template-columns: 337px;
       justify-content: center;
+      grid-template-columns: 337px;
       gap: 38px;
     }
   }
