@@ -1,12 +1,15 @@
 .voltaren {
+  margin-bottom: 90px;
+
   @media(min-width: 950px) {
     background-image: url(../images/layer-1.png);
     background-position: bottom;
     background-repeat: no-repeat;
+    margin-bottom: 150px;
   }
 
   &__title {
-    margin: 88px auto 77px;
+    margin: 0 auto 77px;
     width: 50%;
     color: #2d2971;
     font-style: normal;
