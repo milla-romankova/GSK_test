@@ -1,14 +1,10 @@
-# GSK_test
+# GSK_landing
 
-[Demo](https://milla-romankova.github.io/GSK_test)
+Tech stack: HTML, CSS, JS (+ jQuery), BEM
 
-[Figma](https://www.figma.com/file/m9ASkpznyxYM9p0aGoX8F3/GSK_test?node-id=0%3A1)
+Fully responsive design was made with Flex and Grid.
 
-Task:
+Design of the landing page you can find [here](https://www.figma.com/file/nkJeEDgQ6ZSsjGMniNEdHo/GSK_test-(Copy)?node-id=0%3A1)
 
-1. Стек: HTML, CSS, JS (jQuery)
-2. На выполнение задания прошу выделить ровно 4-е часа
-3. Выполнение всех блоков приветствуется но не обязательно. Что успеете выполнить за 4-е часа - это и будет Вашим результатом
-4. Выбор блоков на Ваше усмотрение.  Желательно показать Ваше знания в перечисленном в пункте 1 стеке
-5. Необходимо, чтобы результат был с адаптивной версткой
-6. Минифицировать CSS и JS не требуется
+Click the link to see [Preview](https://milla-romankova.github.io/GSK_test)
+
