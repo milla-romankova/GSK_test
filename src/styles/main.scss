@@ -1,11 +1,14 @@
-@import "fonts";
-@import "general.scss";
-@import "page.scss";
-@import "header.scss";
-@import "button.scss";
-@import "symptomatic.scss";
-@import "additional.scss";
-@import "voltaren.scss";
-@import "feedback.scss";
-@import "questions.scss";
-@import "footer.scss";
+@import "base/fonts.scss";
+@import "base/general.scss";
+@import "base/reset.scss";
+
+@import "components/button.scss";
+
+@import "layout/page.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/additional.scss";
+@import "layout/symptomatic.scss";
+@import "layout/voltaren.scss";
+@import "layout/feedback.scss";
+@import "layout/questions.scss";
